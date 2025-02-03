@@ -100,7 +100,7 @@ export const Header: FC<Props> = ({ theme, changeTheme }) => {
         <div className="nav__wrapper">
           <div className="logo">
             <h2>
-              <a href="#">FutureMedia</a>
+              <a href="#">Creovex</a>
             </h2>
           </div>
           <div
