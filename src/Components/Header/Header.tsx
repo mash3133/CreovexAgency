@@ -20,10 +20,10 @@ export const Header: FC<Props> = ({ theme, changeTheme }) => {
       path: '#services',
       display: 'Services',
     },
-    {
-      path: '#about',
-      display: 'About',
-    },
+    // {
+    //   path: '#about',
+    //   display: 'About',
+    // },
     {
       path: '#blog',
       display: 'Blog',
