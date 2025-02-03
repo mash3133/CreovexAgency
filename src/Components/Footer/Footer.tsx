@@ -5,59 +5,59 @@ export const Footer = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const year = new Date().getFullYear();
-  const quickLinks = [
-    {
-      name: 'Solutions',
-      content: [
-        {
-          path: '#',
-          display: 'Marketing',
-        },
-        {
-          path: '#',
-          display: 'Analytics',
-        },
-        {
-          path: '#',
-          display: 'Ecommerce',
-        },
-      ],
-    },
-    {
-      name: 'Support',
-      content: [
-        {
-          path: '#',
-          display: 'Pricing',
-        },
-        {
-          path: '#',
-          display: 'Documentation',
-        },
-        {
-          path: '#',
-          display: 'Guides',
-        },
-      ],
-    },
-    {
-      name: 'Company',
-      content: [
-        {
-          path: '#',
-          display: 'About',
-        },
-        {
-          path: '#',
-          display: 'Jobs',
-        },
-        {
-          path: '#',
-          display: 'Blog',
-        },
-      ],
-    },
-  ];
+  // const quickLinks = [
+  //   {
+  //     name: 'Solutions',
+  //     content: [
+  //       {
+  //         path: '#',
+  //         display: 'Marketing',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Analytics',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Ecommerce',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     name: 'Support',
+  //     content: [
+  //       {
+  //         path: '#',
+  //         display: 'Pricing',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Documentation',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Guides',
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     name: 'Company',
+  //     content: [
+  //       {
+  //         path: '#',
+  //         display: 'About',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Jobs',
+  //       },
+  //       {
+  //         path: '#',
+  //         display: 'Blog',
+  //       },
+  //     ],
+  //   },
+  // ];
   return (
     <footer className="footer" ref={ref}>
       <div className="container">
@@ -80,7 +80,7 @@ export const Footer = () => {
               and individuals achieve their goals.
             </p>
           </div>
-          <div
+          {/* <div
             className="footer__quick-links-wrapper"
             style={{
               transform: isInView ? 'none' : 'translateX(100%)',
@@ -105,7 +105,7 @@ export const Footer = () => {
                 </ul>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
         <p className="copyright">
           Copyright© Creovex {year}. All rights
