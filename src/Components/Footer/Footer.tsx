@@ -108,8 +108,7 @@ export const Footer = () => {
           </div>
         </div>
         <p className="copyright">
-          Copyright© {year}, developed by{' '}
-          <a href="https://github.com/xroobix">RooB</a>. All rights
+          Copyright© Creovex {year}. All rights
           reserved.
         </p>
       </div>
