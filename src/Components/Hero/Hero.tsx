@@ -30,7 +30,7 @@ export const Hero: FC<Props> = ({ theme }) => {
               <h2 className="highlight">Promote Your Brand</h2>
             </div>
             <p className="description">
-              FutureMedia is a digital marketing agency that helps
+              Creovex is a digital marketing agency that helps
               businesses grow online through services like SEO, social
               media marketing, and PPC advertising. We're dedicated to
               innovation and delivering results-driven strategies for

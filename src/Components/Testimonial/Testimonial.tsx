@@ -10,19 +10,19 @@ import './testimonial.css';
 const customerData = [
   {
     name: 'John Lee',
-    description: `"I cannot recommend FutureMedia highly enough! As the CEO of a large corporation, I was initially hesitant to work with an external agency. However, the team at FutureMedia quickly put my fears to rest. They were professional, efficient, and most importantly, delivered results. Their expertise in digital marketing helped us to increase our online presence and generate more leads than ever before. I will definitely be using FutureMedia for all my marketing needs in the future!"`,
+    description: `"I cannot recommend Creovex highly enough! As the CEO of a large corporation, I was initially hesitant to work with an external agency. However, the team at Creovex quickly put my fears to rest. They were professional, efficient, and most importantly, delivered results. Their expertise in digital marketing helped us to increase our online presence and generate more leads than ever before. I will definitely be using Creovex for all my marketing needs in the future!"`,
     image: customer1,
     position: 'CEO, DreamMakers',
   },
   {
     name: 'Sarah Thompson',
-    description: `"I am so glad that we chose FutureMedia as our marketing agency! From the very beginning, they took the time to understand our business goals and develop a customized strategy that would help us achieve them. Their team is always available to answer questions and provide updates, and they have been instrumental in helping us to build brand awareness and drive more traffic to our website. Thanks to their hard work and dedication, we have been able to grow our business and reach new customers. I would highly recommend FutureMedia to any CEO looking for a reliable and effective marketing partner."`,
+    description: `"I am so glad that we chose Creovex as our marketing agency! From the very beginning, they took the time to understand our business goals and develop a customized strategy that would help us achieve them. Their team is always available to answer questions and provide updates, and they have been instrumental in helping us to build brand awareness and drive more traffic to our website. Thanks to their hard work and dedication, we have been able to grow our business and reach new customers. I would highly recommend Creovex to any CEO looking for a reliable and effective marketing partner."`,
     image: customer2,
     position: 'CEO, WonderSon',
   },
   {
     name: 'Alexander Ramirez',
-    description: `"FutureMedia is simply the best marketing agency out there! As a CEO, I have worked with several different agencies over the years, but none have matched the level of expertise and commitment that FutureMedia brings to the table. Their team is dedicated, creative, and always willing to go the extra mile to ensure that our campaigns are a success. Thanks to their efforts, we have seen a significant increase in traffic and conversions on our website. I would highly recommend FutureMedia to any business looking to take their marketing to the next level."`,
+    description: `"Creovex is simply the best marketing agency out there! As a CEO, I have worked with several different agencies over the years, but none have matched the level of expertise and commitment that Creovex brings to the table. Their team is dedicated, creative, and always willing to go the extra mile to ensure that our campaigns are a success. Thanks to their efforts, we have seen a significant increase in traffic and conversions on our website. I would highly recommend Creovex to any business looking to take their marketing to the next level."`,
     image: customer3,
     position: 'CEO, RamiTech',
   },

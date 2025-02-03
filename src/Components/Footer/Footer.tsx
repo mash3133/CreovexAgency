@@ -70,7 +70,7 @@ export const Footer = () => {
               transition: 'all 1s ease-out 0.5s',
             }}
           >
-            <h2>FutureMedia</h2>
+            <h2>Creovex</h2>
             <p className="description footer__desc">Grow with us</p>
             <p className="small__text description">
               "Grow with Us" is more than just an invitation to take
