@@ -43,12 +43,12 @@ export const About = () => {
           <div className="about__content">
             <h6 className="subtitle">Why choose us</h6>
             <h2>Specialist in advising clients on</h2>
-            <h2 className="highlight">financial challenges</h2>
+            <h2 className="highlight">marketing challenges</h2>
             <p className="description about__content-desc">
-              At our company, we understand that navigating financial
+              At our company, we understand that navigating marketing
               challenges can be daunting. That's why we offer expert
               advice and guidance to help you make informed decisions
-              and achieve your financial goals.
+              and achieve your marketing goals.
             </p>
             <div className="choose__us-item-wrapper">
               {chooseData.map((i, idx) => (
