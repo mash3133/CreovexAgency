@@ -5,6 +5,7 @@
 .hero__wrapper {
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
     margin-bottom: 30px;
 }

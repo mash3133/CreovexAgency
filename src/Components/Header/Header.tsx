@@ -9,25 +9,30 @@ interface Props {
 export const Header: FC<Props> = ({ theme, changeTheme }) => {
   const nav__links = [
     {
-      path: '#home',
-      display: 'Home',
-    },
-    {
-      path: '#projects',
-      display: 'Projects',
-    },
-    {
-      path: '#services',
-      display: 'Services',
+      path:'',
+      display:'',
+
     },
     // {
-    //   path: '#about',
-    //   display: 'About',
+    //   path: '#home',
+    //   display: 'Home',
     // },
-    {
-      path: '#blog',
-      display: 'Blog',
-    },
+    // // {
+    // //   path: '#projects',
+    // //   display: 'Projects',
+    // // },
+    // {
+    //   path: '#services',
+    //   display: 'Services',
+    // },
+    // // {
+    // //   path: '#about',
+    // //   display: 'About',
+    // // },
+    // {
+    //   path: '#blog',
+    //   display: 'Blog',
+    // },
   ];
 
   const darkMode = (
@@ -123,14 +128,15 @@ export const Header: FC<Props> = ({ theme, changeTheme }) => {
             </ul>
           </div>
           <div className='right-menu'>
-            <div className="light__mode">
+          <div className="light__mode">
               <button onClick={changeTheme}>
                 {theme === 'light-theme' ? lightMode : darkMode}
               </button>
             </div>
-            <span className="mobile__menu" onClick={toggleMobileMenu}>
+          <button className='primary__btn'>FR</button>
+            {/* <span className="mobile__menu" onClick={toggleMobileMenu}>
               <i className="ri-menu-line" />
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

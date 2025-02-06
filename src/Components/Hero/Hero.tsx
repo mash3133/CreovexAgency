@@ -25,24 +25,23 @@ export const Hero: FC<Props> = ({ theme }) => {
             }}
           >
             <div>
-              <h2>We're Creating Perfect</h2>
-              <h2>Digital Products To</h2>
-              <h2 className="highlight">Promote Your Brand</h2>
+              <h2>We Turn Small</h2>
+              <h2>Businesses Into</h2>
+              <h2 className="highlight">Real Businesses</h2>
             </div>
             <p className="description">
-              Creovex is a digital marketing agency that helps
-              businesses grow online through services like SEO, social
-              media marketing, and PPC advertising. We're dedicated to
-              innovation and delivering results-driven strategies for
-              our clients.
+              At Creovex, we specialize in transforming your online presence. 
+              Our expertise in lead generation, SEO, and social media marketing ensures 
+              your business not only grows but thrives in the digital landscape. Let us handle 
+              the tech, so you can focus on what you do best.
             </p>
             <div className="hero__btns">
               <button className="primary__btn">
                 Get Started Now
               </button>
-              <button className="secondary__btn">
+              {/* <button className="secondary__btn">
                 Discover More
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="hero__img">
